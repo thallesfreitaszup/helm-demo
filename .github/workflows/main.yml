@@ -28,3 +28,6 @@ jobs:
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
         tags: latest
+    - name: Generate tgz 
+      run: git archive HEAD > test.tgz
+      
