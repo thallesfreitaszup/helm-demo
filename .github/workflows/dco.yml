@@ -27,6 +27,6 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: DCO
-        uses: thallesfreitaszup/zup-dco-validator@0d2c5de33f021bed32d840a350cfd84c9731ffe3
+        uses: thallesfreitaszup/zup-dco-validator@2f404bc0f7266e693abbbc331e84d322834a2e85
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
